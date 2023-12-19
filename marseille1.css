@@ -1,0 +1,227 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin-bottom: 10%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .retour-accueil {
+        position: fixed; 
+        top: 20px; 
+        left: 40px; 
+        font-size: 24px; 
+        color: rgb(255, 255, 255); 
+        text-decoration: none; 
+        z-index: 0;
+        
+    }
+    
+    .retour-accueil:hover{
+        background: rgb(0, 145, 255);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    
+    .retour-accueil:hover::before {
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0.1;
+    }
+    
+    
+    header{
+        background: linear-gradient(45deg, rgba(0, 0, 0, 0.485) 0%, rgba(0, 0, 0, 0.425) 100%), url('image-Marseille/image1.jpg');
+        padding: 30%;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+.container{
+    margin-bottom: 20%;
+
+}
+.histoire {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0.5px 2.5px 10px rgb(8, 109, 177);
+    transition: transform 0.3s;
+    margin-top: -10%;
+}
+
+
+.container i,h2, h3,h4, hr {
+    margin-left: 3%;
+}
+
+
+i {
+    margin-left: 3%;
+    font-size: 3em;
+}
+
+h1{
+    margin-left: 3%;
+    background: linear-gradient(10deg, #ffffff 0%, #ffffff 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 1px 2px #cbcbcb;
+}
+
+h2{
+
+    color: rgb(0, 0, 0);
+
+}
+
+h3{
+    color:#0095FF ;
+    font-style: italic;
+}
+
+h4{
+     font-size: 2.2em;
+}
+
+
+h6{
+    font-size: 1em;
+}
+
+
+p {
+    color: #3d3d3d;
+    font-size: 1.1em;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+
+img {
+    width: 50%;
+    height: 10em;
+    margin-left: 3%;
+
+}
+
+
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1600px) {
+
+    .all-container{
+        box-shadow: 0.5px 2.5px 10px rgb(8, 109, 177);
+        width: 80%;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: -10%;
+    }
+   
+
+    
+.retour-accueil {
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    font-size: 24px; 
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    
+}
+
+.retour-accueil:hover{
+    background: rgb(0, 145, 255);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.retour-accueil:hover::before {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0.1;
+}
+
+
+header{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.485) 0%, rgba(0, 0, 0, 0.425) 100%), url('image-Marseille/image1.jpg');
+    padding: 30%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.container i,h2, h3,h4, hr {
+    margin-left: 3%;
+}
+
+i {
+
+    margin-left: 3%;
+    font-size: 3em;
+}
+
+h1{
+    margin-left: 3%;
+    background: linear-gradient(10deg, #ffffff 0%, #ffffff 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 1px 2px #cbcbcb;
+}
+
+h2{
+
+    color: rgb(0, 0, 0);
+
+}
+
+h3{
+    color:#0095FF ;
+    font-style: italic;
+}
+
+h4{
+     font-size: 2.2em;
+}
+
+
+h6{
+    font-size: 1em;
+}
+
+
+p {
+    color: #3d3d3d;
+    font-size: 1.1em;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+
+img {
+    width: 50%;
+    height: 20em;
+    margin-left: 3%;
+
+}
+
+
+
+}
